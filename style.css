@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Fredoka One', cursive;
+}
+
+section{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 2em;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+section.normal{
+    background-color: white;
+
+}
+
+section >p{
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+section.img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.459);
+}
+
+section#img01{
+    background-color: darkgrey;
+    height: 600px;
+    background-image: url(imagens/wallpaperflare.com_wallpaper\ \(5\).jpg);
+}
+
+section#img02{
+    background-color: darkgrey;
+    height: 600px;
+    background-image: url(imagens/wallpaperflare.com_wallpaper\ \(6\).jpg);
+}
+
+section#img03{
+    background-color: darkgrey;
+    height: 600px;
+    background-image: url(imagens/wallpaperflare.com_wallpaper\ \(7\).jpg);
+}
+
+section#img04{
+    background-color: darkgrey;
+    height: 600px;
+    background-image: url(imagens/wallpaperflare.com_wallpaper\ \(11\).jpg);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
